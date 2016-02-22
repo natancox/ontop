@@ -108,7 +108,7 @@ public class R2RMLImportAction extends ProtegeAction {
 
 					} catch (Exception e) {
 						JOptionPane.showMessageDialog(null, "An error occurred. For more info, see the logs.");
-						log.error("Error during r2rml import. \n");
+						log.error("Error during r2rml import. \n", e);
 						e.printStackTrace();
 					}
 
